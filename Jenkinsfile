@@ -1,4 +1,4 @@
-@Library('jenkins-library@master') _  // This is used to tell the pipeline to use this shared library , but this library should /                                      //be configured in jenkins under shared library section.
+@Library('jenkins-library@master') _  // This is used to tell the pipeline to use this shared library , but this library should                                   //be configured in jenkins under shared library section.
 
 pipeline {
     agent any
