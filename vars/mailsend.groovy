@@ -1,4 +1,4 @@
-def mail (Map stage) {
+def call (Map stage) {
        
 	   emailext (
 	        to:  stage.to,
