@@ -1,7 +1,7 @@
 def mail (Map stage) {
        
 	   emailext (
-	        to:  stage.to
+	        to:  stage.to,
 			body: stage.body,
 			mimeType: 'text/html',
 			subject: stage.sub,
